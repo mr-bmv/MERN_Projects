@@ -3,7 +3,7 @@ import { useRoutes } from './routes';
 
 import 'materialize-css'
 
-const isAuthenticated = true
+const isAuthenticated = false
 
 function App() {
 
