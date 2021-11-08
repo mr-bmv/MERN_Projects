@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { useRoutes } from './routes';
 
 import 'materialize-css'
@@ -10,11 +10,11 @@ function App() {
   const routes = useRoutes(isAuthenticated)
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className='container'>
         {routes}
       </div>
-    </Router>
+    </BrowserRouter>
 
   );
 }
