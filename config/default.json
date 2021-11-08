@@ -1,4 +1,5 @@
 {
   "port": 5000,
+  "jwtSecret": "bmv mern project",
   "mongoUri": "mongodb+srv://mike:1178@cluster0.kjybh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
